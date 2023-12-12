@@ -20,3 +20,7 @@ fs.readFile("./contect.txt","utf-8",(err,result1)=>{
     else console.log(result1) 
 });
 console.log(result)
+
+//append the file
+const res=fs.appendFileSync("./text.txt","rama ram nu sariyane");
+console.log(res);
