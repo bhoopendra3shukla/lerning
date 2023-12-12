@@ -9,3 +9,7 @@ fs.writeFile("/text.txt","hello Bhoopendra async",(err)=>{
         console.log(err)
     }
 });
+
+//read the file
+const result=fs.readFileSync("./contect.txt","utf-8");
+console.log(result)
